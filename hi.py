@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.title("Servidor para Gato")
-st.info("Es para recordarte que te amo mucho")
+st.title("Servidor de prueba")
+st.info("Este servidor es para checar los datos que queremos enviar")
 
-st.text("cosa apestosa")
+st.text("Parte de revisión de apartado de texto")
 
-status = st.radio("Me quieres?", ("Sí", "No"))
+status = st.radio("Quieres una coca?", ("Sí", "No"))
 
 if status == "Sí":
-	st.success("Yo más")
+	st.success("Ah, ok!")
 else:
-	st.error("Me enoja")
+	st.error("Que bueno jeje")
